@@ -1,15 +1,16 @@
 print("ระบบคำนวณ  ประนีประนอม(สันติ) ")
-pint = int ( input (" Please Type Your Distance "))
+Ranges = int ( input (" Please Type Your Distance "))
 
-if (pint <= 0):
+if (Ranges <= 5):
     print (" ERROR นะคะ ไปส่งเองเถอะค่ะ  ")
-elif (pint <= 51 ):
+elif (Ranges < 51 ):
      print("Your deliver total is 10บาท")
-elif (pint >= 51 and pint <= 100  ):
+elif (Ranges >= 51 and Ranges <= 100  ):
      print("  Your deliver total is 15บาท ")
-elif (pint >= 101 and pint <= 300 ):
+elif (Ranges >= 101 and Ranges <= 300 ):
      print("  Your deliver total is 25บาท ")
-elif (pint >= 301 and pint <= 500 ):
+elif (Ranges >= 301 and Ranges <= 500 ):
      print("  Your deliver total is 35บาท ")
-elif (pint >= 500 ):
+elif (Ranges > 500 ):
      print("  Your deliver total is 45บาท ")
+#I am sorry to be that you'd know but I never known that 
