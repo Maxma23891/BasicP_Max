@@ -13,4 +13,4 @@ elif (Ranges >= 301 and Ranges <= 500 ):
      print("  Your deliver total is 35บาท ")
 elif (Ranges > 500 ):
      print("  Your deliver total is 45บาท ")
-#I am sorry to be that you'd know but I never known that 
+#I am sorry to be that you'd know but I never known that l
