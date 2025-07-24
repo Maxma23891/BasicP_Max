@@ -1,0 +1,69 @@
+
+# def maxma(a,b):
+#    print(a+b)
+
+# maxma(2,3) 
+# x = 15 
+# y = 15
+# maxma(x,y)
+
+
+# def introduction (fname):
+#    print ("My name is ", fname )
+
+# introduction("maxma")  
+# def tellAge():
+#     age = input("Type your age ")
+#     print ("Your age ", age)   
+
+
+# def introduction():
+#     name = input("Type yourname ")
+#     print ("Your Name is", name)   
+
+# introduction()  
+# tellAge()  
+# def Spam(max):
+#     n = int(input("จะลูปกี่รอบ"))
+
+#     for i in range (n):
+#         print("วนรอบที่", i+1, max)
+# Spam("555")
+
+# x = ["maxma",1.4 , 2.2, ];prine = x[2] + x[1];print(prine);x.append(5.3);x.pop(0);x[2] ="MJ",print(x)
+# dig_a = {
+#     "A":80,"B":70
+# }
+# print(dig_a)
+def Checkscore(list_of_students):
+    for student in list_of_students:
+     if  student["score"] >= 50:
+        print("เซลลเยอะ")
+     else:
+        print ("เซลล์ไม่มี")
+
+
+students = [
+
+{"name":"Tom","id": 11 , "score":85},
+{"name":"Tommy","id": 11 , "score":5},
+
+]
+
+Checkscore(students)
+
+# dict_a = {
+
+#     "name":"Tom","id": 11 , 
+#      "score":85,
+# }
+# dict_b = {
+
+#     "name":"Tommy","id": 11 , 
+#      "score":8,
+# }
+# list = [dict_a,dict_b]
+# print ( list )
+
+# for  i in list :
+#  print (i["score"])
